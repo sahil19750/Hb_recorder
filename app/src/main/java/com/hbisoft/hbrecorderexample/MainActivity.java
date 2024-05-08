@@ -253,8 +253,7 @@ public class MainActivity extends AppCompatActivity implements HBRecorderListene
                 }
 
                 if (hasPermissions) {
-                    //check if recording is in progress
-                    //and stop it if it is
+                    //check if recording is in progress and stop it if it is
                     if (hbRecorder.isBusyRecording()) {
                         count--;
                         startRecordingScreen();
